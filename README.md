@@ -20,12 +20,10 @@ The goal was to train a simple image recognition model using **Google Teachable 
 
 ---
 
-- ### 📂 File overview
-
-/model/
-├── model.json        → The model architecture and configuration
-├── metadata.json     → Information about the classes (apple, tomato)
-└── weights.bin       → The trained weights of the neural network
+### 📂 File overview
+- `model.json` — model architecture and configuration  
+- `metadata.json` — class information (apple, tomato)  
+- `weights.bin` — trained neural network weights 
 
 These files were exported from Teachable Machine in **TensorFlow.js** format and can be loaded directly in a web project.
 
@@ -39,6 +37,6 @@ However, further tests with more varied data are recommended to check real-world
 ---
 
 ### ✍️ Author
-**Andreas Eriksen-Fedog**  
+**Andy-I-Am**
 *UiA IKT902 – Autumn 2025*
 ⸻
